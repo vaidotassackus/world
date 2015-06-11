@@ -20,7 +20,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        $name = 'Laba diena';
+        $name = 'Laba diena, su vistiena';
 
         return ['name' => $name];
     }
